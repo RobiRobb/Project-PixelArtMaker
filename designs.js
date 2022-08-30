@@ -20,9 +20,9 @@ function makeGrid(grid) {
     let column = this.elements.height.value;
     let row = this.elements.width.value;
       for (let x = 0; x < row; x++) {
-        tableRow = document.createElement('tr');
+        let tableRow = document.createElement('tr');
         for (let y = 0; y < column; y++) {
-            tableColumn = document.createElement('td');
+            let tableColumn = document.createElement('td');
             tableColumn.addEventListener('click', changeColor);
             tableRow.appendChild(tableColumn);
 
