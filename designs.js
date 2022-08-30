@@ -31,8 +31,6 @@ function makeGrid(grid) {
       }
     }
 
-//add rows and colums to canvas.
-
 //color Select
 
 function changeColor() {
